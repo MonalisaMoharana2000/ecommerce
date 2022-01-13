@@ -1,0 +1,16 @@
+.heart{
+    font-size: 35px;
+    color:rgb(182, 173, 173);
+    margin-top: 7px;
+     width: 70px;
+     outline: none;
+     text-transform: uppercase;
+     cursor: pointer;
+     font-weight: bold;
+     /* :hover{
+         color: rgb(192, 39, 39);
+     }
+    &.active {
+        color: rgb(192, 39, 39);
+    } */
+ }

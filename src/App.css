@@ -1,0 +1,283 @@
+
+*{
+  /* box-sizing: border-box; */
+  font-family: 'Merriweather', serif;
+}
+.about{
+  padding: 50px 5px;
+  background-color: #000000;
+}
+.desc{
+  padding-top: 40px;
+}
+.main{
+  position: relative;
+}
+.abttitle{
+  text-align: center;
+  color: #bdbdbd;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+.abttitle::before{
+  content: "";
+  height: 2px;
+  position: absolute;
+  width: 90px;
+  border: 2px solid #92dcdb;
+  left: 37%;
+  top: -10px;
+}
+.abttitle::after{
+  content: "";
+  height: 2px;
+  position: absolute;
+  width: 90px;
+  border: 2px solid #92dcdb;
+  left: 60%;
+}
+.desc p{
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+  font-style: italic;
+  color: #bdbdbd;
+  padding-bottom: 8px;
+
+}
+.team{
+  margin-bottom: 5em;
+  position: relative;
+}
+.team h2{
+text-align: center;
+font-style: italic;
+color: #bdbdbd;
+}
+.team:after{
+  content: "";
+    width: 20%;
+    border: 2px solid rgb(223,2,152);
+    position: absolute;
+    display: block;
+    left: 40%;
+}
+
+ 
+
+.nav-link:hover{
+background-color:rgb(119, 114, 114);
+text-decoration: rgb(223,2,152);
+font-size: small;
+padding: 15px;
+display: inline-block;
+
+}
+.navbar-brand:hover{
+  background-color:yellowgreen;
+  transform: scale(1.4);
+}
+/* card style starts here */
+
+.card {
+
+  background:#393939;
+  box-shadow:0 20px 50px #c3cf1d1a;
+  border-radius:10px;
+  transition:0.5s;
+}
+.card:hover {
+  box-shadow:0 30px 70px rgba(0,0,0,.2);
+  box-shadow: 2px 2px 20px 0px #b5b5b5;
+  /* transform: scale(1.3); */
+}
+.card .box {
+  position:absolute;
+  top:50%;
+  left:0;
+  transform:translateY(-50%);
+  text-align:center;
+  padding:20px;
+  box-sizing:border-box;
+  width:100%;
+}
+.card .box .img {
+  width:135px;
+  height:135px;
+  margin:0 auto;
+  border-radius:50%;
+  overflow:hidden;
+}
+.card .box .img img {
+  width:100%;
+  height:100%;
+}
+.card .box h2 {
+  font-size:20px;
+  color:#cbcbcb;
+  margin:20px auto;
+}
+.card .box h2 span {
+  font-size:14px;
+  margin-top: 10px;
+  background:#e91e63;
+  color:#cbcbcb;
+  display:inline-block;
+  padding:4px 10px;
+  border-radius:15px;
+}
+.card .box p {
+  color:#cbcbcb;
+}
+.card .box span {
+  display:inline-flex;
+}
+.card .box ul {
+  margin:0;
+  padding:0;
+}
+.card .box ul li {
+  list-style:none;
+  float:left;
+}
+.card .box ul li a {
+  display:block;
+  color:#aaa;
+  margin:0 10px;
+  font-size:20px;
+  transition:0.5s;
+  text-align:center;
+}
+.card .box ul li:hover a {
+  color:#e91e63;
+  transform:rotateY(360deg);
+}
+
+
+
+
+/* card style ends here */
+
+
+.modified{
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid;
+}
+.pro-card{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-evenly;
+}
+.pro-card .sc-bilyIR.fLVWXH{
+  width: 350px;
+}
+.dEkDr{
+  width: 350px;
+}
+.sc-gsDKAQ.dEkDr img{
+  width: 50%;
+  height: auto;
+}
+.pro-card .sc-bilyIR.fLVWXH img{
+  width: 100%;
+}
+.sc-dVNjXY.jSMILF{
+  width: 350px;
+}
+.pro-card .sc-dVNjXY.jSMILF img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.site-footer__top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #bfbfbf;
+  padding: 2rem 2rem;
+}
+a.site-socials__link svg {
+  width: 44px;
+  height: 24px;
+}
+nav.site-footer__nav div a {
+  color: #000000;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.site-footer__nav{
+  display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
